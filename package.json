@@ -1,0 +1,20 @@
+{
+  "name": "influx-node-app",
+  "version": "1.0.0",
+  "description": "Influx node app",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Musa",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.18"
+  },
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.29.0",
+    "@influxdata/influxdb-client-apis": "^1.29.0",
+    "dotenv": "^16.0.1"
+  }
+}
